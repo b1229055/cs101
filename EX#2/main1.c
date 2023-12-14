@@ -3,10 +3,10 @@
 int main() {
     int i = 8;
     if (i & (i-1)) {
-        printf("否");
+        printf("true");
     }
     else {
-    printf("是");
+    printf("false");
     }
     return 0;
 }
