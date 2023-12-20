@@ -1,18 +1,17 @@
 #include <stdio.h>
 
 int main(){
-    int i =7;
-    
-    for(int n=1;n<=i;n++){
-        for(int p=1;p<=i;p++){
-            if(p<=i-n){
-                printf(" ");
-            }
-            else{
-                printf("%d ",n);
-            }
-        }
-        printf("\n");
+    int n = 7;
+    int spc = n;
+    for (int i = 1; i <= n; i++){
+        for(int k = spc; k>=1; k--){
+        printf(" ");
+    }
+    for (int j =1; j <= i; j++){
+    printf("%d ", i);
+    }
+    printf("\n");
+    spc--;
     }
     return 0;
 }
